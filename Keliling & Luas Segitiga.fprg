@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="SMADA-1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-04 01:43:03 PM"/>
+        <attribute name="created" value="U01BREEtMTtDTElFTlQtMzY7MjAyMy0xMC0wNDswMTozMTo1NSBQTTsyMzIw"/>
+        <attribute name="edited" value="U01BREEtMTtDTElFTlQtMzY7MjAyMy0xMC0wNDswMTo0MzowMyBQTTsxOzI0MjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Luas" type="Real" array="False" size=""/>
+            <declare name="Keliling" type="Real" array="False" size=""/>
+            <declare name="Alas" type="Real" array="False" size=""/>
+            <declare name="Sisikiri" type="Real" array="False" size=""/>
+            <declare name="Sisikanan" type="Real" array="False" size=""/>
+            <declare name="Tinggi" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukkan panjang alas:&quot;" newline="True"/>
+            <input variable="Alas"/>
+            <output expression="&quot;Masukkan panjang sisi kiri:&quot;" newline="True"/>
+            <input variable="Sisikiri"/>
+            <output expression="&quot;Masukkan panjang sisi kanan:&quot;" newline="True"/>
+            <input variable="Sisikanan"/>
+            <output expression="&quot;Masukkan tinggi: &quot;" newline="True"/>
+            <input variable="Tinggi"/>
+            <assign variable="Luas" expression="0.5*Alas*Tinggi"/>
+            <assign variable="Keliling" expression="Alas+Sisikiri+Sisikanan"/>
+            <output expression="&quot;Luas: &quot;" newline="True"/>
+            <output expression="Luas" newline="True"/>
+            <output expression="&quot;Keliling: &quot;" newline="True"/>
+            <output expression="Keliling" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
